@@ -18,3 +18,5 @@ local test = {query="query=title:'网站源码'&&config=start:50,hit:250,format:
 local returnhtml = start_search:search(test)
 --这里返回的returnhtml是字符串哦,如果需要渲染到模板一定要记得 cjson.decode(returnhtml)
 ngx.say(returnhtml)
+
+具体可前往 http://www.bugscaner.com/jiaobenyuyan/python/218.html 查看使用！
