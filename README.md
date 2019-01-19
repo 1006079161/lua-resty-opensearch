@@ -11,6 +11,7 @@ local search_config = {
 	accesskey_secret = '39Rs4AjdvG1O61sxvtJYjcGbCKtECX';
 }
 
+
 --实例化
 local start_search = opensearch.new(search_config)
 local test = {query="query=title:'网站源码'&&config=start:50,hit:250,format:json",fetch_fields="id;title"}
